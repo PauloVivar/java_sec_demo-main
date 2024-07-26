@@ -86,12 +86,13 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <failBuildOnCVSS>11</failBuildOnCVSS>
+                    <failBuildOnCVSS>10</failBuildOnCVSS>
                     <!-- Generate all report formats -->
                     <format>ALL</format>
                     <!-- Don't use Nexus Analyzer -->
                     <centralAnalyzerEnabled>false</centralAnalyzerEnabled>
                     <failOnError>false</failOnError>
+                    <nvdApiKey>e5d000e2-a49b-4207-87ab-4bae68b765b6</nvdApiKey>
                 </configuration>
             </plugin>
             <!-- test coverage -->

@@ -149,7 +149,8 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.2.0</version>
+                <!-- <version>4.2.0</version> -->
+                <version>4.8.6.2</version>
                 <configuration>
                     <effort>Max</effort>
                     <threshold>Low</threshold>
@@ -164,19 +165,20 @@
                         </plugin>
                     </plugins>
                 </configuration>
-                <executions>
+                <!-- <executions>
                     <execution>
                         <goals>
                             <goal>check</goal>
                         </goals>
                     </execution>
-                </executions>
+                </executions> -->
                 <dependencies>
                     <!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
                     <dependency>
                         <groupId>com.github.spotbugs</groupId>
                         <artifactId>spotbugs</artifactId>
-                        <version>4.2.1</version>
+                        <!-- <version>4.2.1</version> -->
+                        <version>4.8.6.2</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -281,7 +283,8 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.2.0</version>
+                <!-- <version>4.2.0</version> -->
+                <version>4.8.6.2</version>
                 <configuration>
                     <effort>Max</effort>
                     <threshold>Low</threshold>

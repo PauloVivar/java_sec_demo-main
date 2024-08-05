@@ -20,3 +20,7 @@ Para levantar el contenedor de la aplicacion, además de las dependencias; se de
 ```bash
 docker compose up
 ```
+
+```solución
+docker compose up
+```

@@ -38,6 +38,7 @@ services:
     networks:
       - cicd
     environment:
+      - http://sonarqube:9000
       - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
     ports:
       - '9000:9000'

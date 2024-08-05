@@ -11,7 +11,7 @@ pipeline {
     stage('Build') {
       steps {
         withMaven(maven : 'mvn-3.8.8') {
-          sh "mvn package"
+          sh 'mvn package'
         }
       }
     }
@@ -48,7 +48,7 @@ pipeline {
                 keepAll: true,
                 reportDir: 'target/zap-reports',
                 reportFiles: 'zapReport.html',
-                reportName: "ZAP report"
+                reportName: 'ZAP report'
               ])
         }
       }
